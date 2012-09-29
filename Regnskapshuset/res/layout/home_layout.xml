@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_about"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/home_logoimg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/home_account_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text = "Regnskap "
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/home_salary_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text = "Lønn"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/home_annualreports_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text = "Årsoppgjør "
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/home_copyright_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textColor="#275fa5"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_about" >
+
+    <Button
+        android:id="@+id/salary_salary_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_bg"
+        android:contentDescription="@string/app_name" />
+    
+    <ImageView 
+        android:id="@+id/salary_logo_id"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/salary_lonn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text = "Lønnskjøring"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/salary_term_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text = "Terminoppgave"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

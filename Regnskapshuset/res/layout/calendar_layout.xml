@@ -1,0 +1,266 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/phone_about"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/calendar_first_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <Button
+            android:id="@+id/calendar_back_id"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_bg"
+            android:text=""
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="6dp"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <!--HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="5dp"
+        android:scrollbars="none" -->
+
+        <LinearLayout
+            android:id="@+id/calendar_year_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" >
+        </LinearLayout>
+    <!--/HorizontalScrollView-->
+    
+    <TextView 
+        android:textColor="#000"
+        android:id="@+id/calendar_layout_text_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="For å se årlig rapport, trykk ønsket år i rekken over."
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/calendar_layout_id"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#fdf5f5" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/table_frame"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/calendar_txt_year_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#233883"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_jan_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Jan" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_feb_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Feb" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_march_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Mar" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_april_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Apr" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_may_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="May" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_june_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Jun" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_july_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Jul" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_aug_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Aug" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_sep_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Sep" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_oct_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Oct" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_nov_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Nov" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/calendar_dec_id"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/calendar_bg"
+                        android:text="Dec" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

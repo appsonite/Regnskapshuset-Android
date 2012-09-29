@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_about" >
+
+    <Button
+        android:id="@+id/annual_annual_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_bg"
+        android:contentDescription="@string/app_name" />
+    
+    <ImageView 
+        android:id="@+id/annual_logo_id"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/annual_skat_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/app_name"
+        android:text="Skatteberegning" />
+
+    <Button
+        android:id="@+id/annual_lign_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/app_name"
+        android:text="Ligningspapirer" />
+
+    <Button
+        android:id="@+id/annual_report_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/app_name"
+        android:text="Årsregnskap" />
+
+</RelativeLayout>

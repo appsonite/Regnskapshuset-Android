@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/map_layer_bg" >
+
+    <ImageView
+        android:id="@+id/map_bubbleIcon"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/map_bubbleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/map_bubbleIcon"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/map_bubbleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_bubbleTitle"
+        android:layout_toRightOf="@+id/map_bubbleIcon"
+        android:paddingBottom="30dp"
+        android:singleLine="false"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_about" >
+
+    <Button
+        android:id="@+id/accounting_account_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back_bg"
+        android:contentDescription="@string/app_name" />
+    
+    <ImageView 
+        android:id="@+id/accounting_logo_id"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/accounting_resultat_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Resultat"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/accounting_balance_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Balanse"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/accounting_kunde_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Kundefordringer"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/accounting_leverand_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Leverandør Gjeld"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/accounting_merver_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Merverdiavgift"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

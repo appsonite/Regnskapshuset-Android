@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/phone_about"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/about_image_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/app_about"
+        android:textColor="#000"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
